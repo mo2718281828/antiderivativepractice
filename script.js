@@ -1,4 +1,122 @@
 const questions = [
+
+  {
+    integrand: '5x^{3} + 7',
+    correctAnswer: '\\frac{5}{4}x^{4} + 7x + C',
+    incorrectAnswers: [
+      '5x^{4} + 7x + C',
+      '\\frac{5}{2}x^{2} + 7x + C',
+      '\\frac{5}{4}x^{4} + C',
+      '5x^{3} + 7x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '2x^{-2} + 9',
+    correctAnswer: '-2x^{-1} + 9x + C',
+    incorrectAnswers: [
+      '2x^{-1} + 9x + C',
+      '-2x^{-1} + C',
+      '2x^{-2} + 9x + C',
+      '\\ln|x| + 9x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '4x^{\\frac{1}{2}} + 6',
+    correctAnswer: '\\frac{8}{3}x^{\\frac{3}{2}} + 6x + C',
+    incorrectAnswers: [
+      '6x^{\\frac{3}{2}} + 6x + C',
+      '\\frac{4}{3}x^{\\frac{3}{2}} + 6x + C',
+      '\\frac{8}{3}x^{\\frac{1}{2}} + 6x + C',
+      '\\frac{8}{3}x^{\\frac{3}{2}} + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '7x^{-3} + 5',
+    correctAnswer: '-\\frac{7}{2}x^{-2} + 5x + C',
+    incorrectAnswers: [
+      '-7x^{-2} + 5x + C',
+      '7x^{-2} + 5x + C',
+      '-\\frac{7}{2}x^{-2} + C',
+      '7x^{-3} + 5x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '3x^{\\frac{2}{3}} + 2',
+    correctAnswer: '\\frac{9}{5}x^{\\frac{5}{3}} + 2x + C',
+    incorrectAnswers: [
+      '\\frac{9}{5}x^{\\frac{5}{3}} + C',
+      '3x^{\\frac{5}{3}} + 2x + C',
+      '\\frac{5}{9}x^{\\frac{5}{3}} + 2x + C',
+      '\\frac{9}{5}x^{\\frac{2}{3}} + 2x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '8x^{0} + 4x^{1}',
+    correctAnswer: '8x + 2x^{2} + C',
+    incorrectAnswers: [
+      '8x + 4x^{2} + C',
+      '8x^{2} + 2x^{2} + C',
+      '8 + 4x^{2} + C',
+      '8x^{0} + 4x^{2} + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '10x^{-1} + 3',
+    correctAnswer: '10\\ln|x| + 3x + C',
+    incorrectAnswers: [
+      '10x^{-1} + 3x + C',
+      '10\\ln|x| + C',
+      '5\\ln|x| + 3x + C',
+      '10x + 3x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '6x^{\\frac{4}{3}} + 2',
+    correctAnswer: '\\frac{18}{7}x^{\\frac{7}{3}} + 2x + C',
+    incorrectAnswers: [
+      '\\frac{9}{7}x^{\\frac{7}{3}} + 2x + C',
+      '6x^{\\frac{7}{3}} + 2x + C',
+      '\\frac{18}{7}x^{\\frac{4}{3}} + 2x + C',
+      '\\frac{18}{7}x^{\\frac{7}{3}} + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: 'x^{-1} + 8',
+    correctAnswer: '\\ln|x| + 8x + C',
+    incorrectAnswers: [
+      '\\ln|x| + C',
+      '\\frac{1}{2}x^{-2} + 8x + C',
+      'x^{-1} + 8x + C',
+      '\\ln|x| + 4x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+  {
+    integrand: '9x^{2} + 1',
+    correctAnswer: '3x^{3} + x + C',
+    incorrectAnswers: [
+      '\\frac{9}{2}x^{2} + x + C',
+      '9x^{3} + x + C',
+      '3x^{3} + C',
+      '9x^{2} + x + C',
+      '\\text{Cannot be integrated}'
+    ]
+  },
+
+
+  
+  
+  
+  // QUESTIONS BELOW THIS COMMENT HAVE ALREADY BEEN CHECKED!
+  
   {
     integrand: '\\left( x^2 + 3x \\right)',
     correctAnswer: '\\frac{1}{3}x^3 + \\frac{3}{2}x^2 + C',
